@@ -44,7 +44,9 @@
 
   --radius-pill: 100px;
   --radius-circle: 50%;
-  --blob-radius: 52% 48% 59% 41% / 53% 40% 60% 47%;
+  --blob-radius:  45% 45% 35% 35% / 45% 45% 35% 35%;
+
+
 
   /**
    * transition
@@ -532,14 +534,16 @@ body.nav-active { overflow: hidden; }
 .hero-banner {
   border-radius: var(--blob-radius);
   overflow: hidden;
- box-shadow:#222 0px 10px 20px ;
+ box-shadow:#222 0px 30px 20px ;
+ 
 }
+
 
 
 
 .hero .section-text { margin-block: 30px;  }
 
-.hero .btn { margin-inline: auto; }
+.hero .btn { margin-inline:inherit; justify-content: flex-end; color: var(--black); font-weight: bold; }
 
 
 
