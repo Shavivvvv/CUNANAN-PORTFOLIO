@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CUNANAN | PORTFOLIO WEBSITE</title>
+  <meta name="title" content="Abi's Portfolio">
+  <meta name="description" content="This is a personal portfolio">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="images/abi.jpg">
+
+
+</head>
+
+<body>
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" width="130" height="50" alt="Abi's Portfolio">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HOME
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Cunanan, Abbie O.</h1>
+
+            <p class="hero-subtitle">
+             BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY | PSAU
+            </p>
+
+            <div class="hero-banner">
+              <img src="images/abi.jpg" width="800" height="800" alt="abi" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I’m Abbie, a BSIT student in who develops websites and mobile applications that focuses on functionality, reliability, and sustainability.
+            </p>
+
+            <a href="images/cv.pdf"  target="_blank" class="btn has-before">
+              <span class="span" >Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="about-me" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">About Me</p>
+
+          <h2 class="h2 section-title">Who is Abbie</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                Hello! I'm Abbie O. Cunanan, a Bachelor of Science in Information Technology (BSIT) student at 
+               Pampanga Agricultural State University. Born on November 20, 2005, I have a strong passion and interesr for coding and software development.
+              </p>
+
+              <p class="section-text">
+                I specialize in software development, as I enjoy working with logic, and system architecture. Over the years, I have built websites and applications for both desktop and mobile platforms, I seek to continuously hone my skills to create 
+                efficient and functional systems.
+              </p>
+
+              <a href="about.html" class="btn has-before">About Me <span><ion-icon name="arrow-forward-outline"></ion-icon></span> </a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Design</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Development</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Mobile Development</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Database Management</p>
+
+                    <data class="progress-value" value="75">75%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio"  id="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Portfolio</p>
+
+            <h2 class="h2 section-title">Best Works</h2>
+          </div>
+
+          <p class="section-text">
+            Featuring my most significant projects, this portfolio illustrates my career growth and technical capabilities. It’s a reflection of the skills I’ve mastered and the practical lessons learned through hands-on experience.
+          </p>
+
+        </div>
+
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/csshub.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">CSShub</h3>
+
+                  <p class="card-text">Web-based online learning platform for Computer System Servicing NCII <br>(HTML, CSS, & JAVASCRIPT)</p>
+                </div>
+
+                <a href="https://shavivvvv.github.io/CSSHUB/index.html" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/farmchivelogo.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">FarmChivePH</h3>
+
+                  <p class="card-text">A Farmer Registry System meant for registration of farmers in the Philippines <br>(Java & MySQL)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1QLFmQXk1hXBYP4-5fvsJZOUrPBCA2q5K" target="_blank"  class="layer-link"></a>
+
+              </div>
+            </li>
+
+            
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/WHACK.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Whack Sir OJ</h3>
+
+                  <p class="card-text">A Whack a Mole Mini-Game<br>(HTML, CSS, & JAVASCRIPT)</p>
+                </div>
+
+                <a href="https://bit.ly/3GKn1kE" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:abbiecunanan1@gmail.com" class="footer-link">abbiecunanan1@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Magalang, Pampanga</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/txabiiv/" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/txabiiv" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:abbiecunanan1@gmail.com" class="social-link">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+
+        
+        <li>
+            <a href="https://github.com/shavivvvv" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+
+</html>

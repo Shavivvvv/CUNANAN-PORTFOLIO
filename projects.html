@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CUNANAN | PORTFOLIO WEBSITE</title>
+  <meta name="title" content="Abi's_Web Portfolio">
+  <meta name="description" content="This is a personal portfolio">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="images/abi.jpg">
+
+
+</head>
+
+<body>
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" width="130" height="50" alt="Abi's Portfolio">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio"  id="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="banner">
+          <img src="" alt="Header">
+          <div class="banner-text">
+              <h1>PROJECTS</h1>
+          </div>
+    
+      </div>
+
+        <!---Laboratory Activities-->
+      
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">WORKS</p>
+
+            <h2 class="h2 section-title">UI/UX Designing</h2>
+          </div>
+
+          <p class="section-text">
+            Designed and implemented a user-centric mobile app interface and interactive prototypes
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/ithub.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">IT HUB</h3>
+
+                  <p class="card-text">Website Design <br>(Figma)</p>
+                </div>
+
+                <a href="https://www.figma.com/proto/jvAoqOcReYyF0GDyTBzHsW/I.T.-sHub--Shop-and-Learn?node-id=71-2445&starting-point-node-id=149%3A1239" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/sysi-shoe.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Sysi - Shoe Apparel<br></h3>
+
+                  <p class="card-text">Website Design <br>(Figma)</p>
+                </div>
+
+                <a href="images/sysi-shoe.png" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/tanim-modelo.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Tanim-ModeloPH <br></h3>
+
+                  <p class="card-text">Application Design <br>(Canva)</p>
+                </div>
+
+                <a href="images/tanim-modelo.png" target="_blank" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title"><br></h3>
+
+                  <p class="card-text"><br></p>
+                </div>
+
+                <a href="" target="_blank" class="layer-link"></a>
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+        <!---Websites-->
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">WORKS</p>
+
+            <h2 class="h2 section-title">Websites</h2>
+          </div>
+
+          <p class="section-text">
+            This contains the websites I have created throughout the years. It showcases the hands-on projects and practical work I
+            have completed. 
+             
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/WHACK.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Whack Sir OJ</h3>
+
+                  <p class="card-text">A Whack a Mole Mini-Game.<br>(HTML, CSS, JAVASCRIPT)</p>
+                </div>
+
+                <a href="https://patuwik-dotcom.github.io/LandFWeb/Website/Mai_page.html" target="_blank"  class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/resume.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Web Resume</h3>
+
+                  <p class="card-text">Web Resume is an online resume meant to showcase my information, skills, and background<br>(HTML, CSS, JAVASCRIPT)</p>
+                </div>
+
+                <a href="https://shavivvvv.github.io/resume/" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+             <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/csshub.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">CSSHub/h3>
+
+                  <p class="card-text">Online Learning Platform for learning Tesda NCII<br>(HTML, CSS, PHP)</p>
+                </div>
+
+                <a href="https://shavivvvv.github.io/CSSHUB/index.html" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/portfolio (2).png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Portfolio Website</h3>
+
+                  <p class="card-text">Portfolio Website made a few year back<br>(HTML, CSS, JAVASCRIPT)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1wJGdzxbVPEvGwm7Ch3SR5CiBejGlYngt?usp=sharing" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+           
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/lost.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Lost and Found System</h3>
+
+                  <p class="card-text">Lost and Found System meant to help students and faculties to track and recover missing items.<br>(HTML, CSS, PHP)</p>
+                </div>
+
+                <a href="https://patuwik-dotcom.github.io/LandFWeb/Website/Mai_page.html" target="_blank"  class="layer-link"></a>
+
+              </div>
+            </li>
+
+              
+
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+
+        <!---Software Applications-->
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Works</p>
+
+            <h2 class="h2 section-title">Software Applications</h2>
+          </div>
+
+          <p class="section-text">
+            A showcase of desktop and mobile apps I built. These projects reflect my practical experience and the evolution of my skills across different platforms.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+           <!---Desktop-->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+            
+                <div class="card-content">
+                  <h3 class="h3 card-title"></h3>
+
+                  <p class="card-text"></p>
+                </div>
+
+                <a href="" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+       
+
+            <!---Mobile-->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/farmchivelogo.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">FarmChivePH</h3>
+
+                  <p class="card-text">A Farmer Registry System meant for registration of farmers in the Philippines<br>(Java, MySQL)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1QLFmQXk1hXBYP4-5fvsJZOUrPBCA2q5K" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+              
+
+                <div class="card-content">
+                  <h3 class="h3 card-title"></h3>
+
+                  <p class="card-text"></p>
+                </div>
+
+                <a href="" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+            
+
+                <div class="card-content">
+                  <h3 class="h3 card-title"></h3>
+
+                  <p class="card-text"></p>
+                </div>
+
+                <a href="https://bit.ly/3GKn1kE" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            
+
+
+
+          </ul>
+
+           <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+          <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Evaluations</p>
+
+            <h2 class="h2 section-title">Certifications and Workshops</h2>
+          </div>
+
+          <p class="section-text">
+           A collection of certifications and workshops I've attended, showcasing my dedication to expanding my expertise and staying current with industry practices.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+           <!---Desktop-->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/html-certi.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">HTML Certificate</h3>
+
+                  <p class="card-text">Sololearn Course Certification in HTML5<br></p>
+                </div>
+
+                <a href="https://www.sololearn.com/certificates/CC-9SZRP7UU" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+       
+
+            <!---Mobile-->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/introtojava-certi.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Introduction to Java Certificate</h3>
+
+                  <p class="card-text">Sololearn Course Certification in Introduction to Java<br></p>
+                </div>
+
+                <a href="https://www.sololearn.com/certificates/CC-CQTU4XJG" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/java-certi.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Intermediate Java Certificate</h3>
+
+                  <p class="card-text">Sololearn Course Certification in Java Intermediate<br></p>
+                </div>
+
+                <a href="https://www.sololearn.com/certificates/CC-RAODGAKH" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/python-certi.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Python Certificate</h3>
+
+                  <p class="card-text">Sololearn Course Certification in Python <br></p>
+                </div>
+
+                <a href="https://www.sololearn.com/certificates/CC-JDWEGC0L" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/sql-certi.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">SQL Sololearn Certificate</h3>
+
+                  <p class="card-text">Sololearn Course Certification in SQL <br></p>
+                </div>
+
+                <a href="https://www.sololearn.com/certificates/CC-OXOTBYCN" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/aiworkshop-certi.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">AISG AI for Good Workshop Certificate</h3>
+
+                  <p class="card-text"> AISG AI Awareness Workshop handled by AI Singapore and supported by Meta <br></p>
+                </div>
+
+                <a href="" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:abbiecunanan1@gmail.com" class="footer-link">abbiecunanan1@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Magalang, Pampanga</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/txabiiv/" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/txabiiv" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:abbiecunanan1@gmail.com" class="social-link">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+
+        
+        <li>
+            <a href="https://github.com/shavivvvv" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </footer>
+
+  
+  <script src="script.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>

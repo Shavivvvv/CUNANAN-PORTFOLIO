@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CUNANAN | PORTFOLIO WEBSITE</title>
+  <meta name="title" content="Abi's Portfolio">
+  <meta name="description" content="This is a personal portfolio">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="images/abi.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" width="130" height="50" alt="Abi's Portfolio">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <div class="banner">
+        <img src="" alt="Header">
+        <div class="banner-text">
+            <h1>ABOUT ME</h1>
+        </div>
+    </div>
+    
+
+      <!-- 
+        - #SKILLS
+      -->
+      <section class="section skills" id="about" aria-label="our skills">
+        <div class="container">
+          <p class="section-subtitle">About Me</p>
+          <h2 class="h2 section-title">Who I Am</h2>
+      
+          <div class="skills-wrappers">
+            <div class="about-contents">
+              <ul class="personal-info">
+                <li><strong>Name:</strong> Cunanan, Abbie O.</li>
+                <li><strong>Nickname:</strong> Abi</li>
+                <li><strong>Age:</strong> 20</li>
+                <li><strong>Date of Birth:</strong> November 20, 2005</li>
+                <li><strong>Place of Birth:</strong> Magalang, Pampanga</li>
+                <li><strong>Hobby:</strong> Watching Movies and Playing Games</li>
+                <li><strong>University:</strong> Pampanga State Agricultural University</li>
+                <li><strong>Degree:</strong> Bachelor of Science in Information Technology (BSIT)</li>
+          
+              
+              </ul>
+              <a href="about/BAÑAS_CV.pdf" target="_blank" class="btn has-before">
+                <span class="span">Download CV</span>
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+            <div class="about-images">
+              <img class="self" src="images/abi.jpg" alt="Self Image">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section>
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Thing to Know
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Educational Attainment</h2>
+            </div>
+
+            <p class="section-text">
+              The following is a summary of my academic journey, highlighting the schools I’ve attended and the years I spent there.
+            </p>
+
+          </div>
+  
+          <div class="education-wrapper">
+  
+              <div class="education-card">
+                  <ion-icon class="edu-icon" name="school"></ion-icon>
+                  <div class="edu-text">
+                      <h3>Primary School</h3>
+                      <p>Paralayunan Elementary School <br>2012 - 2018</p>
+                  </div>
+              </div>
+  
+              <div class="education-card">
+                  <ion-icon class="edu-icon" name="school"></ion-icon>
+                  <div class="edu-text">
+                      <h3>Junior High School</h3>
+                      <p>Tinajero National High School - Annex <br>2018 - 2022</p>
+                  </div>
+              </div>
+  
+              <div class="education-card">
+                  <ion-icon class="edu-icon" name="school"></ion-icon>
+                  <div class="edu-text">
+                      <h3>Senior High School</h3>
+                      <p>Tinajero National High School - Annex <br>2022 - 2024</p>
+                  </div>
+              </div>
+  
+              <div class="education-card">
+                  <ion-icon class="edu-icon" name="school"></ion-icon>
+                  <div class="edu-text">
+                      <h3>Bachelor’s Degree</h3>
+                      <p>Pampanga State Agricultural University <br>2024 - Present</p>
+                  </div>
+              </div>
+  
+          </div>
+      </div>
+      </section>
+
+
+      <!-- 
+        - #SKILLS for SERVICES
+      -->
+
+      <section class="service" id="skills" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Things I can do
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Skills</h2>
+            </div>
+
+            <p class="section-text">
+              Below are the key programming languages and technologies I have mastered through hands-on development experience. I leverage these skills to create applications that are both high-performing and practical.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="logo-html5"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">HTML</h3>
+
+                  <p class="card-text">
+                    HTML is the standard language for creating and structuring webpages using elements like headings, paragraphs, images, and links.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="logo-css3"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">CSS</h3>
+
+                  <p class="card-text">
+                    CSS is a stylesheet language used to design and style elements, controlling layout, colors, fonts, and responsiveness of webpages.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">JAVASCRIPT</h3>
+
+                  <p class="card-text">
+                    JavaScript is a programming language used to add interactivity, dynamic behavior, and functionality to webpages.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="terminal-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">C++</h3>
+
+                  <p class="card-text">
+                    C++ is a  programming language used for system software, game development, and applications requiring speed and efficiency.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="logo-python"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">PYTHON</h3>
+
+                  <p class="card-text">
+                    Python is a versatile, high-level programming language used for web development, data analysis, artificial intelligence, and automation.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="code-slash"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">JAVA</h3>
+
+                  <p class="card-text">
+                    Java is a versatile, object-oriented programming language used in web applications, mobile development, and enterprise software.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="code"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">PHP</h3>
+
+                  <p class="card-text">
+                    PHP is a scripting language used to build dynamic websites and web applications by executing code on the server to deliver customized content to clients.
+                  </p>
+
+                  <span class="text-lg card-number">07</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="server"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">MySQL</h3>
+
+                  <p class="card-text">
+                    MySQL is an open-source relational database management system used to store, organize, and retrieve data for websites and applications efficiently.
+                  </p>
+
+                  <span class="text-lg card-number">08</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:abbiecunanan1@gmail.com" class="footer-link">abbiecunanan1@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Magalang, Pampanga</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/txabiiv/" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/txabiiv" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:abbiecunanan1@gmail.com" class="social-link">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+
+        
+        <li>
+            <a href="https://github.com/shavivvvv" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
